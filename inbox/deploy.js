@@ -14,7 +14,7 @@ const web3 = new Web3(provider);
 //var gasEstimate = web3.eth.estimateGas({data: '0x' + bytecode});
 
 
-
+//test
 //need to define it as function to use the async await syntax
 const deploy = async () => {
     const accounts = await web3.eth.getAccounts();
